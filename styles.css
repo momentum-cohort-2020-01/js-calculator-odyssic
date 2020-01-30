@@ -7,9 +7,9 @@
                                     .calculator {
                                         display: flex;
                                         flex-wrap: wrap-reverse;
-                                        border: solid rgb(235, 158, 218);
-                                        width: 410px;
-                                        position: relative;
+                                        /* border: solid rgb(39, 35, 51); */
+                                        width: 407px;
+                                        position:
                                     }
                                     
                                     .buttons {
@@ -24,10 +24,11 @@
                                         font-weight: bold;
                                         font-size: 2em;
                                         text-align: center;
+                                        border-radius: 10px;
                                     }
                                     
                                     .function-buttons {
-                                        background: rgb(238, 177, 243);
+                                        background: rgb(114, 40, 104);
                                         padding: 3px;
                                         width: 100px;
                                         height: 75px;
@@ -38,6 +39,7 @@
                                         font-weight: bold;
                                         font-size: 2em;
                                         text-align: center;
+                                        border-radius: 10px;
                                     }
                                     
                                     .display {
@@ -53,4 +55,5 @@
                                         font-size: 2em;
                                         text-align: center;
                                         flex-basis: auto;
+                                        border-radius: 10px;
                                     }
