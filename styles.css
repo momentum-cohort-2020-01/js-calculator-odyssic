@@ -1,0 +1,56 @@
+                                    * {
+                                        box-sizing: border-box;
+                                        margin: 0;
+                                        padding: 0;
+                                    }
+                                    
+                                    .calculator {
+                                        display: flex;
+                                        flex-wrap: wrap-reverse;
+                                        border: solid rgb(235, 158, 218);
+                                        width: 410px;
+                                        position: relative;
+                                    }
+                                    
+                                    .buttons {
+                                        background: rgb(132, 159, 218);
+                                        padding: 3px;
+                                        width: 100px;
+                                        height: 75px;
+                                        /* margin-top: 3px; */
+                                        line-height: 75px;
+                                        color: white;
+                                        border: solid white;
+                                        font-weight: bold;
+                                        font-size: 2em;
+                                        text-align: center;
+                                    }
+                                    
+                                    .function-buttons {
+                                        background: rgb(238, 177, 243);
+                                        padding: 3px;
+                                        width: 100px;
+                                        height: 75px;
+                                        /* margin-top: 3px; */
+                                        line-height: 75px;
+                                        color: white;
+                                        border: solid white;
+                                        font-weight: bold;
+                                        font-size: 2em;
+                                        text-align: center;
+                                    }
+                                    
+                                    .display {
+                                        background: linear-gradient( rgb(47, 46, 56), rgb(89, 87, 104));
+                                        padding: 3px;
+                                        width: 300px;
+                                        height: 75px;
+                                        /* margin-top: 3px; */
+                                        line-height: 75px;
+                                        color: white;
+                                        border: solid white;
+                                        font-weight: bold;
+                                        font-size: 2em;
+                                        text-align: center;
+                                        flex-basis: auto;
+                                    }
